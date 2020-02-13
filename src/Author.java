@@ -5,11 +5,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Author extends Person {
-    private List books;
+    private ArrayList<String> books = new ArrayList<String>();
+
     @SuppressWarnings("unchecked")
+
     public Author(String firstName, String lastName) {
         super(firstName, lastName);
-        books = new ArrayList();
     }
 
     /**
@@ -21,18 +22,12 @@ public class Author extends Person {
     public List<String> getBooks() {
         return books;
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> 21c0da314beb4bbf0de18bab3fd8425347b28c49
     @SuppressWarnings("unchecked")
     public List<String> publishedBooks() {
         return books;
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> 21c0da314beb4bbf0de18bab3fd8425347b28c49
     @SuppressWarnings("unchecked")
     public void addBook(String book) {
         books.add(book);
