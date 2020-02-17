@@ -17,22 +17,15 @@ public class Author extends Person {
      */
     @SuppressWarnings("unchecked")
     @Deprecated
-    @SuppressWarnings("unchecked")
     public List<String> getBooks() {
         return books;
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> 21c0da314beb4bbf0de18bab3fd8425347b28c49
     @SuppressWarnings("unchecked")
     public List<String> publishedBooks() {
         return books;
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> 21c0da314beb4bbf0de18bab3fd8425347b28c49
     @SuppressWarnings("unchecked")
     public void addBook(String book) {
         books.add(book);
